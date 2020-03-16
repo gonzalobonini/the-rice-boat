@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "The Rice Boat"
-baseURL = "http://localhost:1313/"
+baseURL = "/"
 theme = "massively"
 googleanalytics = ""
 disqusShortname = ""
