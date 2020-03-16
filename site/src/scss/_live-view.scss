@@ -1,0 +1,36 @@
+.live-view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  z-index: 9;
+  background: $lightContainer;
+  overflow: overlay;
+
+  .notice {
+    padding: 5px 20px;
+    font-size: 14px;
+  }
+  .inner{
+    position: relative;
+    height: 100%;
+    &.on-loading::before {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      content: '';
+      background: #fff;
+      width: 100%;
+    }
+  }
+
+  iframe {
+    border: none;
+    width: 100%;
+    height: 100%;
+  }
+}

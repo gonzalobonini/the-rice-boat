@@ -1,0 +1,33 @@
+.project-title {
+  //font-weight: 600
+}
+
+.project-description {
+  margin: 0; margin-bottom: 15px; text-align: justify;
+}
+.project-date-place {
+  font-weight: 600
+}
+.frameworks-container {
+  margin-bottom: 20px;
+  .framework {
+    position: relative;
+    &:hover {
+      .framework-caption {
+        display: block;
+      }
+    }
+    .framework-caption {
+      position:absolute;
+      display: none;
+    }
+  }
+  p {
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+}
+
+.call-to-action {
+  .button:first-child { margin-right: 15px }
+}

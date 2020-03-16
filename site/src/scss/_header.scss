@@ -1,0 +1,56 @@
+.main-nav {
+  padding: 10px;
+  #altg-logo {
+    width: 90px;
+  }
+  text-align: center;
+
+  ul {
+    margin: 0;
+
+    li {
+      display: inline;
+      margin-right: 30px;
+
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $bodyText;
+        &:hover {
+          color: $redAccent
+        }
+      }
+      img,svg {
+        vertical-align: middle;
+      }
+
+      svg path {
+        fill: white;
+      }
+    }
+  }
+
+  @media all and (min-width: 600px) {
+    .desktop-nav { display: block;  }
+    .mobile-nav { display: none;  }
+  }
+
+  @media all and (max-width: 599px) {
+    .desktop-nav { display: none;;  }
+    .mobile-nav { display: block;  }
+  }
+
+  .mobile-nav {
+    padding-top: 0;
+    ul {
+      margin: 0;
+    li {
+      margin-right: 10px;
+      display: inline;
+    }
+    }
+  }
+
+
+  }

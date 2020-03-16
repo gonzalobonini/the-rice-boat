@@ -1,0 +1,64 @@
+.framework-jquery, .framework-php, .framework-woocommerce, .framework-squarespace, .framework-bootstrap,
+.framework-css, .framework-git, .framework-html, .framework-js, .framework-sass,
+.framework-unity, .framework-wordpress, .framework-joomla, .framework-angular, .framework-hugo,
+.framework-shopify, .framework-snap-svg, .framework-webflow
+{ display: inline-block; margin-right: 10px; background: url('https://res.cloudinary.com/gonzalobonini/image/upload/portfolio/frameworks.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+
+.framework-jquery { background-position: -3px -0px; width: 86px; height: 25px; }
+.framework-php { background-position: -3px -28px; width: 50px; height: 25px; }
+.framework-woo { background-position: -3px -56px; width: 41px; height: 25px; }
+.framework-webflow { background-position: -47px -56px; width: 35px; height: 25px; }
+.framework-squarespace { background-position: -3px -84px; width: 31px; height: 25px; }
+.framework-bootstrap { background-position: -56px -28px; width: 25px; height: 25px; }
+.framework-css { background-position: -37px -84px; width: 25px; height: 25px; }
+.framework-git { background-position: -3px -112px; width: 25px; height: 25px; }
+.framework-html { background-position: -31px -112px; width: 25px; height: 25px; }
+.framework-js { background-position: -59px -112px; width: 25px; height: 25px; }
+.framework-sass { background-position: -3px -140px; width: 25px; height: 25px; }
+.framework-unity { background-position: -31px -140px; width: 25px; height: 25px; }
+.framework-wordpress { background-position: -59px -140px; width: 25px; height: 25px; }
+.framework-joomla { background-position: -3px -168px; width: 24px; height: 25px; }
+.framework-angular { background-position: -30px -168px; width: 23px; height: 25px; }
+.framework-hugo { background-position: -56px -168px; width: 22px; height: 25px; }
+.framework-shopify { background-position: -65px -84px; width: 21px; height: 25px; }
+.framework-snap-svg { background-position: -3px -196px; width: 15px; height: 25px; }
+ 
+.framework-xl-jquery, .framework-xl-php, .framework-xl-woo, .framework-xl-squarespace, .framework-xl-bootstrap,
+.framework-xl-css, .framework-xl-git, .framework-xl-html, .framework-xl-js, .framework-xl-sass,
+.framework-xl-unity, .framework-xl-wordpress, .framework-xl-joomla, .framework-xl-angular, .framework-xl-hugo,
+.framework-xl-shopify, .framework-xl-snap-svg
+{ display: inline-block; background: url('https://res.cloudinary.com/gonzalobonini/image/upload/portfolio/frameworks.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+
+.framework-xl-jquery { background-position: -3px -0px; width: 211px; height: 61px; } 
+.framework-xl-php { background-position: -3px -64px; width: 120px; height: 60px; } 
+.framework-xl-woo { background-position: -3px -127px; width: 102px; height: 61px; }
+.framework-xl-squarespace { background-position: -126px -64px; width: 75px; height: 60px; }
+.framework-xl-bootstrap { background-position: -108px -127px; width: 60px; height: 60px; }
+.framework-xl-css { background-position: -108px -190px; width: 60px; height: 60px; }
+.framework-xl-git { background-position: -3px -191px; width: 60px; height: 60px; }
+.framework-xl-html { background-position: -66px -253px; width: 60px; height: 60px; }
+.framework-xl-js { background-position: -129px -253px; width: 60px; height: 60px; }
+.framework-xl-sass { background-position: -3px -254px; width: 60px; height: 60px; }
+.framework-xl-unity { background-position: -66px -316px; width: 60px; height: 60px; }
+.framework-xl-wordpress { background-position: -129px -316px; width: 60px; height: 60px; }
+.framework-xl-joomla { background-position: -3px -317px; width: 59px; height: 60px; }
+.framework-xl-angular { background-position: -65px -379px; width: 57px; height: 60px; }
+.framework-xl-hugo { background-position: -125px -379px; width: 54px; height: 60px; }
+.framework-xl-shopify { background-position: -3px -380px; width: 53px; height: 61px; }
+.framework-xl-snap-svg { background-position: -171px -127px; width: 37px; height: 61px; }
+
+
+.framework-page {
+
+  .columns {
+    text-align: center;
+    background: $darkAccent;
+    padding: 30px;
+    margin-bottom: 20px;
+    max-height: 140px;
+
+    &:nth-child(odd){
+      margin-left: 0;
+    }
+  }
+}

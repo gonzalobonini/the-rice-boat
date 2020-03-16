@@ -1,0 +1,29 @@
+$desktopBreakpoint: 550px;
+$redAccent: #C92331;
+$bodyText: #808285;
+
+$bodyBackground: #2A2A2A;
+$bodyBackgroundLight: #dddddd;
+
+$lightAccent: darken($bodyBackground, 5%);
+$darkAccent: darken($bodyBackground, 10%);
+$lightContainer: #fff;
+
+* {
+  box-sizing: border-box;
+}
+
+
+@import 'general';
+@import 'frameworks';
+@import 'header';
+@import 'index';
+@import 'birds';
+@import 'project-list';
+@import 'live-view';
+@import 'project';
+@import 'partners';
+@import 'about-me';
+@import 'single';
+@import 'playground';
+@import 'reviews';

@@ -1,0 +1,77 @@
+.about-me {
+    padding: 3% 0%;
+
+    .contact {
+      margin-top: 20px;
+      i {
+      vertical-align: middle;
+      margin-right: 10px
+      }
+      .social-icon {
+        margin-right: 15px;
+        display: inline-block;
+      }
+
+      .contact-form {
+        background: $bodyBackground;
+        padding: 20px;
+        border: 1px dashed;
+        text-align: left;
+
+        input {
+          max-width: 200px;
+          background: none;
+          border: none;
+          border-radius: 0;
+          margin: 15px 10px;
+          font-size: 14px;
+          vertical-align: middle;
+          color: white;
+        }
+
+        input[type='text'], input[type='email'], textarea{
+            background: $darkAccent;
+            border: none;
+            border-bottom: 1px solid;
+        }
+
+        textarea { max-width: 100%; color: white; }
+
+        input[type='color'] {
+          margin-left: 0
+        }
+
+
+      }
+    }
+    p { font-size: 16px; }
+
+    .bear {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      background: url("https://res.cloudinary.com/gonzalobonini/image/upload/c_scale,q_80,w_260,fl_progressive/v1544972795/portfolio/bear.jpg") no-repeat;
+      background-size: 100%;
+      position: relative;
+      margin: auto;
+      @media all and (min-width: $desktopBreakpoint) {
+        float: right;
+      }
+
+      &:hover {
+        &:before {
+          content: "";
+          width: 100%;
+          background: darken($redAccent,20%);
+          opacity: .2;
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          border-radius: 50%;
+        }
+        background-position-y: -250px;
+      }
+    }
+
+}
