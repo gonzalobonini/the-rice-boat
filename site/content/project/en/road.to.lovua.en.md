@@ -21,7 +21,8 @@ disableComments = true
 
 ## PORTUGUESE VERSION
 
-{{< youtube S-AgKiwM578 >}}
+{{< youtube Wa7ZLbUhQ2Y >}}
+\
 {{< youtube k-TKNll_o7o >}}
 
 \

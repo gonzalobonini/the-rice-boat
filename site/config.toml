@@ -21,10 +21,11 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section"]
     showFirstLast = false
  
 [languages]
-[languages.en]
-  languageName = "English"
-[languages.es]
-  languageName = "Español"
-#[languages.fr]
-#  languageName = "Français"
-#  title = "Massively - Version Française"
+  [languages.en]
+    contentDir = "content/project/en"
+    languageName = "English"
+    weight = 10
+  [languages.es]
+    contentDir = "content/project/es"
+    languageName = "Español"
+    weight = 20
